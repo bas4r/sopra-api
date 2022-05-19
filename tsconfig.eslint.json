@@ -1,0 +1,6 @@
+// this file is needed to prevent TSLint from compiling oreid-js in node-Modules - so weird!
+{
+  "extends": "./tsconfig.json",
+  "include": ["./**/*.js", "./**/*.jsx", "./**/*.ts", "./**/*.tsx"],
+  "exclude": ["node_modules", "build", "config", "doc", "env", "public"]
+}

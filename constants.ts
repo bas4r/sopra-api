@@ -1,0 +1,8 @@
+require("dotenv").config();
+const { DEFAULT_CHAIN_URL, SOPRA_RECOVERY_ADDRESS, SOPRA_RECOVERY_PRIVATE_KEY } = process.env
+
+export {
+    DEFAULT_CHAIN_URL,
+    SOPRA_RECOVERY_ADDRESS, 
+    SOPRA_RECOVERY_PRIVATE_KEY
+}
